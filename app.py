@@ -132,7 +132,7 @@ def main():
 
     stream_key = st.text_input("Stream Key", type="password")
     date = st.date_input("Tanggal Tayang")
-    time_val = st.timeInput("Jam Tayang")
+    time_val = st.time_input("Jam Tayang")  # Perbaikan: time_input bukan timeInput
     is_shorts = st.checkbox("Mode Shorts (720x1280)")
 
     log_placeholder = st.empty()
